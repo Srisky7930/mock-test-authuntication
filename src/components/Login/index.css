@@ -1,0 +1,97 @@
+.login-container {
+  background-color: #152850;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image-container {
+  background-color: #e0eefe;
+  display: flex;
+  border-radius: 20px;
+}
+
+.main-heading {
+  color: #183b56;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.image {
+  height: 450px;
+  width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.user-id-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-id {
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pin {
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.user-id-input {
+  border: 1px solid #c3cad9;
+  height: 40px;
+  width: 280px;
+  margin-top: 10px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+.pin-input {
+  border: 1px solid #c3cad9;
+  height: 40px;
+  width: 280px;
+  margin-top: 10px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+.password-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  background-color: #1565d8;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
